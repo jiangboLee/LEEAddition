@@ -111,7 +111,7 @@ static const void *limitLengthKey = &limitLengthKey;
     self.wordCountLabel.textColor = [UIColor lightGrayColor];
     self.wordCountLabel.font = [UIFont systemFontOfSize:13.];
     if (self.text.length > [limitLength integerValue]) {
-        self.text = [self.text substringToIndex:[self.limitLength intValue]];
+        self.text = [self.text substringToIndex:[self.limitLength longValue]];
     }
     self.wordCountLabel.text = [NSString stringWithFormat:@"%lu/%@",(unsigned long)self.text.length,limitLength];
     [self addSubview:self.wordCountLabel];
@@ -128,9 +128,9 @@ static const void *limitLengthKey = &limitLengthKey;
 #pragma mark -- 限制输入的位数
 - (void)limitLengthEvent {
     
-    if ([self.text length] > [self.limitLength intValue]) {
+    if ([self.text length] > [self.limitLength longValue]) {
         
-        self.text = [self.text substringToIndex:[self.limitLength intValue]];
+        self.text = [self.text substringToIndex:[self.limitLength longValue]];
     }
 }
 
@@ -149,8 +149,8 @@ static const void *limitLengthKey = &limitLengthKey;
     if (self.limitLength) {
         
         NSInteger wordCount = self.text.length;
-        if (wordCount > [self.limitLength intValue]) {
-            wordCount = [self.limitLength intValue];
+        if (wordCount > [self.limitLength longValue]) {
+            wordCount = [self.limitLength longValue];
         }
         self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",wordCount,self.limitLength];
     }
