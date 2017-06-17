@@ -149,8 +149,8 @@ static const void *limitLengthKey = &limitLengthKey;
     if (self.limitLength) {
         
         NSInteger wordCount = self.text.length;
-        if (wordCount > [self.limitLength integerValue]) {
-            wordCount = [self.limitLength integerValue];
+        if (wordCount > [self.limitLength intValue]) {
+            wordCount = [self.limitLength intValue];
         }
         self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",wordCount,self.limitLength];
     }
