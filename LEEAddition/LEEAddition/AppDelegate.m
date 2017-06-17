@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LEEAddition.h"
 
 @interface AppDelegate ()
 

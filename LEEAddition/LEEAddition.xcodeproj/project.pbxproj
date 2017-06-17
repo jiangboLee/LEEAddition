@@ -13,6 +13,19 @@
 		B7A42CC11EF4F3220000A41E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A42CBF1EF4F3220000A41E /* Main.storyboard */; };
 		B7A42CC31EF4F3220000A41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A42CC21EF4F3220000A41E /* Assets.xcassets */; };
 		B7A42CC61EF4F3220000A41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A42CC41EF4F3220000A41E /* LaunchScreen.storyboard */; };
+		B7A42CD11EF4F3BD0000A41E /* UIView+LEEView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD01EF4F3BD0000A41E /* UIView+LEEView.m */; };
+		B7A42CD41EF520E20000A41E /* UIScreen+LEEScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD31EF520E20000A41E /* UIScreen+LEEScreen.m */; };
+		B7A42CD71EF521AD0000A41E /* UIColor+LEEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */; };
+		B7A42CDA1EF5235B0000A41E /* UINavigationController+LEENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */; };
+		B7A42CDD1EF524940000A41E /* UITextView+LEETextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */; };
+		B7A42CE01EF52D340000A41E /* UITextField+LEETextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */; };
+		B7A42CE31EF52FA20000A41E /* UILabel+LEELable.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CE21EF52FA20000A41E /* UILabel+LEELable.m */; };
+		B7A42CE61EF55C580000A41E /* UIImage+LEEImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CE51EF55C580000A41E /* UIImage+LEEImage.m */; };
+		B7A42CE91EF561720000A41E /* NSString+LEEString.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CE81EF561720000A41E /* NSString+LEEString.m */; };
+		B7A42CEC1EF5685A0000A41E /* NSObject+LEENSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CEB1EF5685A0000A41E /* NSObject+LEENSObject.m */; };
+		B7A42CEF1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CEE1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.m */; };
+		B7A42CF21EF5731D0000A41E /* NSArray+LEENSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CF11EF5731D0000A41E /* NSArray+LEENSArray.m */; };
+		B7A42CF51EF573730000A41E /* NSDictionary+LEENSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CF41EF573730000A41E /* NSDictionary+LEENSDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,33 @@
 		B7A42CC21EF4F3220000A41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7A42CC51EF4F3220000A41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7A42CC71EF4F3220000A41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A42CCE1EF4F3790000A41E /* LEEAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEEAddition.h; sourceTree = "<group>"; };
+		B7A42CCF1EF4F3BD0000A41E /* UIView+LEEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LEEView.h"; sourceTree = "<group>"; };
+		B7A42CD01EF4F3BD0000A41E /* UIView+LEEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LEEView.m"; sourceTree = "<group>"; };
+		B7A42CD21EF520E20000A41E /* UIScreen+LEEScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LEEScreen.h"; sourceTree = "<group>"; };
+		B7A42CD31EF520E20000A41E /* UIScreen+LEEScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LEEScreen.m"; sourceTree = "<group>"; };
+		B7A42CD51EF521AD0000A41E /* UIColor+LEEColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LEEColor.h"; sourceTree = "<group>"; };
+		B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LEEColor.m"; sourceTree = "<group>"; };
+		B7A42CD81EF5235B0000A41E /* UINavigationController+LEENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LEENavigationController.h"; sourceTree = "<group>"; };
+		B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LEENavigationController.m"; sourceTree = "<group>"; };
+		B7A42CDB1EF524940000A41E /* UITextView+LEETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LEETextField.h"; sourceTree = "<group>"; };
+		B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LEETextField.m"; sourceTree = "<group>"; };
+		B7A42CDE1EF52D340000A41E /* UITextField+LEETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LEETextField.h"; sourceTree = "<group>"; };
+		B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LEETextField.m"; sourceTree = "<group>"; };
+		B7A42CE11EF52FA20000A41E /* UILabel+LEELable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LEELable.h"; sourceTree = "<group>"; };
+		B7A42CE21EF52FA20000A41E /* UILabel+LEELable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LEELable.m"; sourceTree = "<group>"; };
+		B7A42CE41EF55C580000A41E /* UIImage+LEEImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LEEImage.h"; sourceTree = "<group>"; };
+		B7A42CE51EF55C580000A41E /* UIImage+LEEImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LEEImage.m"; sourceTree = "<group>"; };
+		B7A42CE71EF561720000A41E /* NSString+LEEString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LEEString.h"; sourceTree = "<group>"; };
+		B7A42CE81EF561720000A41E /* NSString+LEEString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LEEString.m"; sourceTree = "<group>"; };
+		B7A42CEA1EF5685A0000A41E /* NSObject+LEENSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LEENSObject.h"; sourceTree = "<group>"; };
+		B7A42CEB1EF5685A0000A41E /* NSObject+LEENSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LEENSObject.m"; sourceTree = "<group>"; };
+		B7A42CED1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LEEAttributedString.h"; sourceTree = "<group>"; };
+		B7A42CEE1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LEEAttributedString.m"; sourceTree = "<group>"; };
+		B7A42CF01EF5731D0000A41E /* NSArray+LEENSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LEENSArray.h"; sourceTree = "<group>"; };
+		B7A42CF11EF5731D0000A41E /* NSArray+LEENSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LEENSArray.m"; sourceTree = "<group>"; };
+		B7A42CF31EF573730000A41E /* NSDictionary+LEENSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LEENSDictionary.h"; sourceTree = "<group>"; };
+		B7A42CF41EF573730000A41E /* NSDictionary+LEENSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LEENSDictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 		B7A42CB51EF4F3220000A41E /* LEEAddition */ = {
 			isa = PBXGroup;
 			children = (
+				B7A42CCD1EF4F3690000A41E /* LEEAddition */,
 				B7A42CB91EF4F3220000A41E /* AppDelegate.h */,
 				B7A42CBA1EF4F3220000A41E /* AppDelegate.m */,
 				B7A42CBC1EF4F3220000A41E /* ViewController.h */,
@@ -77,6 +118,40 @@
 				B7A42CB71EF4F3220000A41E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7A42CCD1EF4F3690000A41E /* LEEAddition */ = {
+			isa = PBXGroup;
+			children = (
+				B7A42CCE1EF4F3790000A41E /* LEEAddition.h */,
+				B7A42CCF1EF4F3BD0000A41E /* UIView+LEEView.h */,
+				B7A42CD01EF4F3BD0000A41E /* UIView+LEEView.m */,
+				B7A42CD21EF520E20000A41E /* UIScreen+LEEScreen.h */,
+				B7A42CD31EF520E20000A41E /* UIScreen+LEEScreen.m */,
+				B7A42CD51EF521AD0000A41E /* UIColor+LEEColor.h */,
+				B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */,
+				B7A42CD81EF5235B0000A41E /* UINavigationController+LEENavigationController.h */,
+				B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */,
+				B7A42CDB1EF524940000A41E /* UITextView+LEETextField.h */,
+				B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */,
+				B7A42CDE1EF52D340000A41E /* UITextField+LEETextField.h */,
+				B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */,
+				B7A42CE11EF52FA20000A41E /* UILabel+LEELable.h */,
+				B7A42CE21EF52FA20000A41E /* UILabel+LEELable.m */,
+				B7A42CE41EF55C580000A41E /* UIImage+LEEImage.h */,
+				B7A42CE51EF55C580000A41E /* UIImage+LEEImage.m */,
+				B7A42CE71EF561720000A41E /* NSString+LEEString.h */,
+				B7A42CE81EF561720000A41E /* NSString+LEEString.m */,
+				B7A42CEA1EF5685A0000A41E /* NSObject+LEENSObject.h */,
+				B7A42CEB1EF5685A0000A41E /* NSObject+LEENSObject.m */,
+				B7A42CED1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.h */,
+				B7A42CEE1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.m */,
+				B7A42CF01EF5731D0000A41E /* NSArray+LEENSArray.h */,
+				B7A42CF11EF5731D0000A41E /* NSArray+LEENSArray.m */,
+				B7A42CF31EF573730000A41E /* NSDictionary+LEENSDictionary.h */,
+				B7A42CF41EF573730000A41E /* NSDictionary+LEENSDictionary.m */,
+			);
+			path = LEEAddition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A42CEC1EF5685A0000A41E /* NSObject+LEENSObject.m in Sources */,
+				B7A42CD71EF521AD0000A41E /* UIColor+LEEColor.m in Sources */,
+				B7A42CE01EF52D340000A41E /* UITextField+LEETextField.m in Sources */,
+				B7A42CE31EF52FA20000A41E /* UILabel+LEELable.m in Sources */,
+				B7A42CD11EF4F3BD0000A41E /* UIView+LEEView.m in Sources */,
+				B7A42CF21EF5731D0000A41E /* NSArray+LEENSArray.m in Sources */,
 				B7A42CBE1EF4F3220000A41E /* ViewController.m in Sources */,
+				B7A42CD41EF520E20000A41E /* UIScreen+LEEScreen.m in Sources */,
+				B7A42CF51EF573730000A41E /* NSDictionary+LEENSDictionary.m in Sources */,
+				B7A42CDD1EF524940000A41E /* UITextView+LEETextField.m in Sources */,
+				B7A42CE91EF561720000A41E /* NSString+LEEString.m in Sources */,
+				B7A42CDA1EF5235B0000A41E /* UINavigationController+LEENavigationController.m in Sources */,
 				B7A42CBB1EF4F3220000A41E /* AppDelegate.m in Sources */,
+				B7A42CE61EF55C580000A41E /* UIImage+LEEImage.m in Sources */,
+				B7A42CEF1EF569A20000A41E /* NSMutableAttributedString+LEEAttributedString.m in Sources */,
 				B7A42CB81EF4F3220000A41E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +402,7 @@
 				B7A42CCC1EF4F3220000A41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
