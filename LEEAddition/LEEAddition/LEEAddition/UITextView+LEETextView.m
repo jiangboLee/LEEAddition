@@ -148,11 +148,11 @@ static const void *limitLengthKey = &limitLengthKey;
     }
     if (self.limitLength) {
         
-        NSInteger wordCount = self.text.length;
+        NSUInteger wordCount = self.text.length;
         if (wordCount > [self.limitLength integerValue]) {
             wordCount = [self.limitLength integerValue];
         }
-        self.wordCountLabel.text = [NSString stringWithFormat:@"%@/%@",@(wordCount),self.limitLength];
+        self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",(long)wordCount,self.limitLength];
     }
     
 }
