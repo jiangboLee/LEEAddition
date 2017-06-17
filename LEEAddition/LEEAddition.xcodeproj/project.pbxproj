@@ -17,7 +17,7 @@
 		B7A42CD41EF520E20000A41E /* UIScreen+LEEScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD31EF520E20000A41E /* UIScreen+LEEScreen.m */; };
 		B7A42CD71EF521AD0000A41E /* UIColor+LEEColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */; };
 		B7A42CDA1EF5235B0000A41E /* UINavigationController+LEENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */; };
-		B7A42CDD1EF524940000A41E /* UITextView+LEETextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */; };
+		B7A42CDD1EF524940000A41E /* UITextView+LEETextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CDC1EF524940000A41E /* UITextView+LEETextView.m */; };
 		B7A42CE01EF52D340000A41E /* UITextField+LEETextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */; };
 		B7A42CE31EF52FA20000A41E /* UILabel+LEELable.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CE21EF52FA20000A41E /* UILabel+LEELable.m */; };
 		B7A42CE61EF55C580000A41E /* UIImage+LEEImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CE51EF55C580000A41E /* UIImage+LEEImage.m */; };
@@ -48,8 +48,8 @@
 		B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LEEColor.m"; sourceTree = "<group>"; };
 		B7A42CD81EF5235B0000A41E /* UINavigationController+LEENavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LEENavigationController.h"; sourceTree = "<group>"; };
 		B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LEENavigationController.m"; sourceTree = "<group>"; };
-		B7A42CDB1EF524940000A41E /* UITextView+LEETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LEETextField.h"; sourceTree = "<group>"; };
-		B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LEETextField.m"; sourceTree = "<group>"; };
+		B7A42CDB1EF524940000A41E /* UITextView+LEETextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LEETextView.h"; sourceTree = "<group>"; };
+		B7A42CDC1EF524940000A41E /* UITextView+LEETextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LEETextView.m"; sourceTree = "<group>"; };
 		B7A42CDE1EF52D340000A41E /* UITextField+LEETextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LEETextField.h"; sourceTree = "<group>"; };
 		B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LEETextField.m"; sourceTree = "<group>"; };
 		B7A42CE11EF52FA20000A41E /* UILabel+LEELable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LEELable.h"; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 				B7A42CD61EF521AD0000A41E /* UIColor+LEEColor.m */,
 				B7A42CD81EF5235B0000A41E /* UINavigationController+LEENavigationController.h */,
 				B7A42CD91EF5235B0000A41E /* UINavigationController+LEENavigationController.m */,
-				B7A42CDB1EF524940000A41E /* UITextView+LEETextField.h */,
-				B7A42CDC1EF524940000A41E /* UITextView+LEETextField.m */,
+				B7A42CDB1EF524940000A41E /* UITextView+LEETextView.h */,
+				B7A42CDC1EF524940000A41E /* UITextView+LEETextView.m */,
 				B7A42CDE1EF52D340000A41E /* UITextField+LEETextField.h */,
 				B7A42CDF1EF52D340000A41E /* UITextField+LEETextField.m */,
 				B7A42CE11EF52FA20000A41E /* UILabel+LEELable.h */,
@@ -235,7 +235,7 @@
 				B7A42CBE1EF4F3220000A41E /* ViewController.m in Sources */,
 				B7A42CD41EF520E20000A41E /* UIScreen+LEEScreen.m in Sources */,
 				B7A42CF51EF573730000A41E /* NSDictionary+LEENSDictionary.m in Sources */,
-				B7A42CDD1EF524940000A41E /* UITextView+LEETextField.m in Sources */,
+				B7A42CDD1EF524940000A41E /* UITextView+LEETextView.m in Sources */,
 				B7A42CE91EF561720000A41E /* NSString+LEEString.m in Sources */,
 				B7A42CDA1EF5235B0000A41E /* UINavigationController+LEENavigationController.m in Sources */,
 				B7A42CBB1EF4F3220000A41E /* AppDelegate.m in Sources */,

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextView (LEETextField)
+@interface UITextView (LEETextView)
 
 /**
  *  改变行间距

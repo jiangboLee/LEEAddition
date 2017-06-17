@@ -11,7 +11,7 @@
 #import "UIScreen+LEEScreen.h"
 #import "UIColor+LEEColor.h"
 #import "UINavigationController+LEENavigationController.h"
-#import "UITextView+LEETextField.h"
+#import "UITextView+LEETextView.h"
 #import "UITextField+LEETextField.h"
 #import "UILabel+LEELable.h"
 #import "UIImage+LEEImage.h"

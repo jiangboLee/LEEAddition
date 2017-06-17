@@ -6,7 +6,7 @@
 //  Copyright © 2017年 lijiangbo. All rights reserved.
 //
 
-#import "UITextView+LEETextField.h"
+#import "UITextView+LEETextView.h"
 #import <objc/runtime.h>
 @interface UITextView ()
 
@@ -14,7 +14,7 @@
 @property (nonatomic, strong) UILabel *wordCountLabel;//计算字数
 @end
 
-@implementation UITextView (LEETextField)
+@implementation UITextView (LEETextView)
 
 + (void)Lee_changeLineSpaceForLabel:(UITextView *)textView WithSpace:(float)space {
 
@@ -111,7 +111,7 @@ static const void *limitLengthKey = &limitLengthKey;
     self.wordCountLabel.textColor = [UIColor lightGrayColor];
     self.wordCountLabel.font = [UIFont systemFontOfSize:13.];
     if (self.text.length > [limitLength integerValue]) {
-        self.text = [self.text substringToIndex:[self.limitLength longValue]];
+        self.text = [self.text substringToIndex:[self.limitLength integerValue]];
     }
     self.wordCountLabel.text = [NSString stringWithFormat:@"%lu/%@",(unsigned long)self.text.length,limitLength];
     [self addSubview:self.wordCountLabel];
@@ -128,9 +128,9 @@ static const void *limitLengthKey = &limitLengthKey;
 #pragma mark -- 限制输入的位数
 - (void)limitLengthEvent {
     
-    if ([self.text length] > [self.limitLength longValue]) {
+    if ([self.text length] > [self.limitLength integerValue]) {
         
-        self.text = [self.text substringToIndex:[self.limitLength longValue]];
+        self.text = [self.text substringToIndex:[self.limitLength integerValue]];
     }
 }
 
@@ -149,10 +149,10 @@ static const void *limitLengthKey = &limitLengthKey;
     if (self.limitLength) {
         
         NSInteger wordCount = self.text.length;
-        if (wordCount > [self.limitLength longValue]) {
-            wordCount = [self.limitLength longValue];
+        if (wordCount > [self.limitLength integerValue]) {
+            wordCount = [self.limitLength integerValue];
         }
-        self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",wordCount,self.limitLength];
+        self.wordCountLabel.text = [NSString stringWithFormat:@"%ld/%@",(long)wordCount,self.limitLength];
     }
     
 }
