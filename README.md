@@ -8,6 +8,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 Second, install `LEEAddition` into your project:<br>
     
     pod install  
+if you can't seacrsh "Unable to find a specification for `LEEAddition`", you can `pod setup`
 ### Manually
     Drag the LEEAddition/LEEAddition/LEEAddition folder into your project.
 # Swift
