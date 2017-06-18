@@ -44,7 +44,6 @@ Even though `LEEAddition` is written in Objective-C, it can be used in Swift wit
 @property(nonatomic, strong) IBInspectable UIColor *placeholderColor;
 and so on........
 ```
-```
 # License
 LEEAlertView is distributed under the terms and conditions of the MIT license. The success, error and info icons are made by Freepik from Flaticon and are licensed under Creative Commons BY 3.0.
 # contact me
