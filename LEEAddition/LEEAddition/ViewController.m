@@ -23,6 +23,7 @@
     [super viewDidLoad];
     
     
+    
     [UILabel Lee_changeWordSpaceForLabel:self.demoLable WithSpace:15];
     NSString *str = @"你好";
     NSLog(@"%@",[str Lee_transformToPinyin]);
@@ -41,5 +42,10 @@
     self.demoLable.attributedText = [NSMutableAttributedString Lee_imageTextWithImage:[UIImage imageNamed:@"flux"] imageWH:50 title:@"nihaoddddddd" fontSize:12 titleColor:[UIColor redColor] spacing:2];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+
+    [super viewWillAppear:animated];
+    self.navBarBgAlpha = @"0.0";
+}
 
 @end

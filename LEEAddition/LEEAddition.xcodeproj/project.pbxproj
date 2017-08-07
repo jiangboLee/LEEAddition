@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F636E2E1F3848D400825B45 /* UIViewController+LEENavBarAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F636E2D1F3848D400825B45 /* UIViewController+LEENavBarAlpha.m */; };
+		3F636E311F384D0300825B45 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F636E301F384D0300825B45 /* NavController.m */; };
+		3F636E341F3850BD00825B45 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F636E331F3850BD00825B45 /* ViewController2.m */; };
 		B7A42CB81EF4F3220000A41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CB71EF4F3220000A41E /* main.m */; };
 		B7A42CBB1EF4F3220000A41E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CBA1EF4F3220000A41E /* AppDelegate.m */; };
 		B7A42CBE1EF4F3220000A41E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A42CBD1EF4F3220000A41E /* ViewController.m */; };
@@ -29,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F636E2C1F3848D400825B45 /* UIViewController+LEENavBarAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LEENavBarAlpha.h"; sourceTree = "<group>"; };
+		3F636E2D1F3848D400825B45 /* UIViewController+LEENavBarAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LEENavBarAlpha.m"; sourceTree = "<group>"; };
+		3F636E2F1F384D0300825B45 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		3F636E301F384D0300825B45 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		3F636E321F3850BD00825B45 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3F636E331F3850BD00825B45 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		B7A42CB31EF4F3220000A41E /* LEEAddition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEEAddition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A42CB71EF4F3220000A41E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7A42CB91EF4F3220000A41E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +112,10 @@
 				B7A42CBA1EF4F3220000A41E /* AppDelegate.m */,
 				B7A42CBC1EF4F3220000A41E /* ViewController.h */,
 				B7A42CBD1EF4F3220000A41E /* ViewController.m */,
+				3F636E321F3850BD00825B45 /* ViewController2.h */,
+				3F636E331F3850BD00825B45 /* ViewController2.m */,
+				3F636E2F1F384D0300825B45 /* NavController.h */,
+				3F636E301F384D0300825B45 /* NavController.m */,
 				B7A42CBF1EF4F3220000A41E /* Main.storyboard */,
 				B7A42CC21EF4F3220000A41E /* Assets.xcassets */,
 				B7A42CC41EF4F3220000A41E /* LaunchScreen.storyboard */,
@@ -124,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				B7A42CCE1EF4F3790000A41E /* LEEAddition.h */,
+				3F636E2C1F3848D400825B45 /* UIViewController+LEENavBarAlpha.h */,
+				3F636E2D1F3848D400825B45 /* UIViewController+LEENavBarAlpha.m */,
 				B7A42CCF1EF4F3BD0000A41E /* UIView+LEEView.h */,
 				B7A42CD01EF4F3BD0000A41E /* UIView+LEEView.m */,
 				B7A42CD21EF520E20000A41E /* UIScreen+LEEScreen.h */,
@@ -228,7 +243,10 @@
 			files = (
 				B7A42CEC1EF5685A0000A41E /* NSObject+LEENSObject.m in Sources */,
 				B7A42CD71EF521AD0000A41E /* UIColor+LEEColor.m in Sources */,
+				3F636E2E1F3848D400825B45 /* UIViewController+LEENavBarAlpha.m in Sources */,
+				3F636E311F384D0300825B45 /* NavController.m in Sources */,
 				B7A42CE01EF52D340000A41E /* UITextField+LEETextField.m in Sources */,
+				3F636E341F3850BD00825B45 /* ViewController2.m in Sources */,
 				B7A42CE31EF52FA20000A41E /* UILabel+LEELable.m in Sources */,
 				B7A42CD11EF4F3BD0000A41E /* UIView+LEEView.m in Sources */,
 				B7A42CF21EF5731D0000A41E /* NSArray+LEENSArray.m in Sources */,

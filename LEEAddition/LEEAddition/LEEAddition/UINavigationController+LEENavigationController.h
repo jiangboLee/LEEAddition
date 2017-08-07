@@ -12,4 +12,6 @@
 
 ///用于导航控制器回跳到指定控制器
 - (UIViewController *)findNeedChildController:(Class)clz;
+///设置导航栏的透明度
+- (void)setNeedsNavigationBackground:(CGFloat)alpha;
 @end

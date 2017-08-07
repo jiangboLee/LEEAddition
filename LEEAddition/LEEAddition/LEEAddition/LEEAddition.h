@@ -20,6 +20,7 @@
 #import "NSMutableAttributedString+LEEAttributedString.h"
 #import "NSArray+LEENSArray.h"
 #import "NSDictionary+LEENSDictionary.h"
+#import "UIViewController+LEENavBarAlpha.h"
 
 
 
