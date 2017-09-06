@@ -20,7 +20,7 @@ Even though `LEEAddition` is written in Objective-C, it can be used in Swift wit
 # Usage
 (see sample Xcode project)
 #### included
-```
+```objc
 #import "UIView+LEEView.h"
 #import "UIScreen+LEEScreen.h"
 #import "UIColor+LEEColor.h"
@@ -35,7 +35,7 @@ Even though `LEEAddition` is written in Objective-C, it can be used in Swift wit
 #import "NSArray+LEENSArray.h"
 #import "NSDictionary+LEENSDictionary.h"
 ```
-```
+```objc
 //字符串转拼音
 [str Lee_transformToPinyin]；
 //视图截屏
